@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.top-nav {
+    background-color: #0b3c5d;
+    padding: 12px;
+    text-align: center;
+}
+
+.top-nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Карточка */
+.card {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card-img {
+    width: 35%;
+    background-color: #eee;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-text {
+    padding: 25px;
+    width: 65%;
+}
+
+.card-text h2 {
+    color: #0b3c5d;
+    margin-top: 0;
+}
+
+.position {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0b3c5d;
+    color: white;
+    margin-top: 40px;
+}
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Электронды кітап | Шерхан Мұртаза</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Базалық стильдер */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 0 20px 40px 20px;
+        }
+
+        .top-nav {
+            background-color: #0b3c5d;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .top-nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .top-nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #0b3c5d;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* PDF батырмалары */
+        .pdf-list {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .pdf-item a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+
+        .pdf-item a:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0b3c5d;
+            color: white;
+            margin-top: 40px;
+            border-radius: 0 0 10px 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<nav class="top-nav">
+    <a href="index.html">Басты бет</a>
+    <a href="bio.html">Өмірбаяны</a>
+    <a href="works.html">Аудиокітап</a>
+    <a href="works2.html">Электронды кітап</a>
+    <a href="gallery.html">Шерхантану" оқу құралы</a>
+    <a href="contact.html">Байланыс</a>
+</nav>
+
+<section class="content">
+
+    <h1></h1>
+    <p>Төменде берілген  электронды кітабына өтіп, PDF файлын ашу арқылы оқыныз немесе жүктеп аласыз:</p>
+
+    <div class="pdf-list">
+        <div class="pdf-item">
+            <a href="11.pdf" target="_blank">PDF 1: Қара маржан</a>
+        </div>
+        <div class="pdf-item">
+            <a href="22.pdf" target="_blank">PDF 2: Ай мен Айша</a>
+        </div>
+        <div class="pdf-item">
+            <a href="33.pdf" target="_blank">PDF 3: Қызыл жебе</a>
+        </div>
+        <div class="pdf-item">
+            <a href="Тәуекел той - Шерхан Мұртаза - Әңгімелер _ Мақалалар - (2) (1).mht" target="_blank">PDF 4: Тәуекел той</a>
+        </div>
+        <div class="pdf-item">
+            <a href="Соңғы нәсіп - Шерхан Мұртаза - Әңгімелер _ Мақалалар - (1).mht" target="_blank">PDF 5: Соңғы нәсіп</a>
+        </div>
+        <div class="pdf-item">
+            <a href="Нахал торғайлар - Шерхан Мұртаза - Әңгімелер _ Мақалалар - (1) (1).mht" target="_blank">PDF 6: Нахал торғайлар</a>
+        </div>
+        <div class="pdf-item">
+            <a href="Жүрекке әжім түспейді.pdf" target="_blank">PDF 7: Жүрекке әжім түспейді</a>
+        </div>
+        <div class="pdf-item">
+            <a href="Бесеудің хаты - Шерхан Мұртаза - Әңгімелер _ Мақалалар - (1).mht" target="_blank">PDF 8: Бесеудің хаты</a>
+        </div>
+        <div class="pdf-item">
+            <a href="41-жылғы келіншек - Шерхан Мұртаза - Әңгімелер _ Мақалалар - (1).mht" target="_blank">PDF 9: 41-жылғы келіншек</a>
+        </div>
+        <div class="pdf-item">
+            <a href="c:\Users\Даниал\OneDrive\Desktop\Новая папка\-bol_-Gүlsary (1).pdf" target="_blank">PDF 10: Қош бол Гүлсара</a>
+        </div>
+        <div class="pdf-item">
+            <a href="c:\Users\Даниал\OneDrive\Desktop\Новая папка\b-k-d.pdf" target="_blank">PDF 11: Бір кем дүние</a>
+        </div>
+        <div class="pdf-item">
+            <a href="c:\Users\Даниал\OneDrive\Desktop\Новая папка\наны.txt" target="_blank">PDF 12: Интернат наны</a>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <p>© "Шерхантану" авторлық бағдарлама 10-сынып</p>
+</footer>
+<script>
+document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListener('keydown', e => {
+  if (e.ctrlKey && ['s','u','p'].includes(e.key)) {
+    e.preventDefault();
+  }
+});
+</script>
+</body>
+</html>
